@@ -10,47 +10,33 @@ body:
         見た目に関係する場合は、スクリーンショット等を貼り付けてください。
     validations:
       required: false
-  - type: textarea
-    id: what-happened
+  - type: input
+    id: environment
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: 再現環境
+      description: |-
+        再現環境を記載してください。
+        (バージョンまであった方が親切だが、バージョン非依存な不具合も多いため手間な場合は省略可)
+        例)
+        Chrome + Windows
+        Edge + Windows
+        Chrome + macOS
+        Safari + macOS
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: process
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+      label: 再現手順
+      description: 不具合を再現させる手順を記載してください。
+      value: |-
+        1.
+        2.
+        3.
+        ...
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
-    id: logs
+    id: supplement
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: 補足
