@@ -16,7 +16,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: toDo
+    id: do
     attributes:
       label: やること
       description: このissueで取り組むことを記載してください。
