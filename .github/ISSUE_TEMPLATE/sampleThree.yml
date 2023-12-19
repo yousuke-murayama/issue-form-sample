@@ -1,5 +1,5 @@
-name: 改善
-description: 改善系はこちら
+name: 改善計画
+description: 改善計画はこちら
 body:
   - type: textarea
     id: contact
