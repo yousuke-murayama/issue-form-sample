@@ -2,14 +2,14 @@ name: 改善
 description: 改善系はこちら
 body:
   - type: textarea
-    id: background
+    id: contact
     attributes:
       label: 背景
       description: どのような課題を抱えてissueを立てたのか、経緯や前提を記載してください。
     validations:
       required: false
   - type: textarea
-    id: background
+    id: merit
     attributes:
       label: メリット
       description: 改善することでどのようなメリットがあるのかを記載してください。
