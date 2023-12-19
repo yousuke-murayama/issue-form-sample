@@ -1,4 +1,5 @@
 name: 改善計画
+description: 改善計画はこちら
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
