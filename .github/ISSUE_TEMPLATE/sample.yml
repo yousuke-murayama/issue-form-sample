@@ -1,15 +1,13 @@
 name: バグ報告
 description: 不具合報告はこちら
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
 body:
-  - type: input
-    id: contact
+  - type: textarea
+    id: overview
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: 概要
+      description: |- 
+        不具合の概要を記載してください。
+        見た目に関係する場合は、スクリーンショット等を貼り付けてください。
     validations:
       required: false
   - type: textarea
