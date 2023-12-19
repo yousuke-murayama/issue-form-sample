@@ -2,24 +2,38 @@ name: 改善
 description: 改善系はこちら
 body:
   - type: textarea
-    id: contact
+    id: overview
     attributes:
-      label: 背景
-      description: どのような課題を抱えてissueを立てたのか、経緯や前提を記載してください。
+      label: 概要
+      description: |- 
+        不具合の概要を記載してください。
+        見た目に関係する場合は、スクリーンショット等を貼り付けてください。
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 再現環境
+      description: |-
+        再現環境を記載してください。
+        (バージョンまであった方が親切ですが、バージョン非依存な不具合も多いため手間な場合は省略可)
+        例：
+        Chrome + Windows
+        Edge + Windows
+        Chrome + macOS
+        Safari + macOS
     validations:
       required: true
   - type: textarea
-    id: merit
+    id: process
     attributes:
-      label: メリット
-      description: 改善することでどのようなメリットがあるのかを記載してください。
-    validations:
-      required: true
-  - type: textarea
-    id: do
-    attributes:
-      label: やること
-      description: このissueで取り組むことを記載してください。
+      label: 再現手順
+      description: 不具合を再現させる手順を記載してください。
+      value: |-
+        1. 
+        2. 
+        3. 
+        ...
     validations:
       required: true
   - type: textarea

@@ -9,7 +9,7 @@ body:
         不具合の概要を記載してください。
         見た目に関係する場合は、スクリーンショット等を貼り付けてください。
     validations:
-      required: false
+      required: true
   - type: input
     id: environment
     attributes:
