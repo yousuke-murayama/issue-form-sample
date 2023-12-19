@@ -16,8 +16,8 @@ body:
       label: 再現環境
       description: |-
         再現環境を記載してください。
-        (バージョンまであった方が親切だが、バージョン非依存な不具合も多いため手間な場合は省略可)
-        例)
+        (バージョンまであった方が親切ですが、バージョン非依存な不具合も多いため手間な場合は省略可)
+        例：
         Chrome + Windows
         Edge + Windows
         Chrome + macOS
@@ -30,9 +30,9 @@ body:
       label: 再現手順
       description: 不具合を再現させる手順を記載してください。
       value: |-
-        1.
-        2.
-        3.
+        1. 
+        2. 
+        3. 
         ...
     validations:
       required: true
