@@ -1,5 +1,5 @@
-name: 改善・リファクタ系
-description: 改善・リファクタ系はこちら
+name: 改善・リファクタ
+description: 改善・リファクタはこちら
 body:
   - type: textarea
     id: contact
