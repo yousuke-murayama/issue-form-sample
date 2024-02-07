@@ -6,7 +6,7 @@ body:
     id: overview
     attributes:
       label: "概要"
-      description: |-
+      description: |
         不具合の概要を記載してください。
         見た目に関係する場合は、スクリーンショット等を貼り付けてください。
     validations:
@@ -15,7 +15,7 @@ body:
     id: environment
     attributes:
       label: "再現環境"
-      description: |-
+      description: |
         再現環境を記載してください。
         例：
         Chrome + Windows
@@ -29,7 +29,7 @@ body:
     attributes:
       label: "再現手順"
       description: "不具合を再現させる手順を記載してください。"
-      value: |-
+      value: |
         1. 
         2. 
         3. 
