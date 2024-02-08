@@ -1,11 +1,12 @@
-name: "バグ報告"
-description: "バグ報告はこちら"
-title: "Bug: "
+# bug_report.yml
+name: バグ報告
+description: 不具合報告はこちら
+title: Bug: 
 body:
   - type: textarea
     id: overview
     attributes:
-      label: "概要"
+      label: 概要
       description: |
         不具合の概要を記載してください。
         見た目に関係する場合は、スクリーンショット等を貼り付けてください。
@@ -14,7 +15,7 @@ body:
   - type: input
     id: environment
     attributes:
-      label: "再現環境"
+      label: 再現環境
       description: |
         再現環境を記載してください。
         例：
@@ -27,8 +28,8 @@ body:
   - type: textarea
     id: process
     attributes:
-      label: "再現手順"
-      description: "不具合を再現させる手順を記載してください。"
+      label: 再現手順
+      description: 不具合を再現させる手順を記載してください。
       value: |
         1. 
         2. 
@@ -39,4 +40,4 @@ body:
   - type: textarea
     id: supplement
     attributes:
-      label: "補足"
+      label: 補足
